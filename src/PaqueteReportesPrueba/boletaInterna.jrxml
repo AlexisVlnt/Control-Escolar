@@ -1,0 +1,2700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c3f75865-a956-4e75-a6d3-9822ecb8c828">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 11">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 11_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 11_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 11_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 12">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 12_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 12_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 12_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 13">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 13_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 13_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 13_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 14">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 14_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 14_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 14_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 15">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 15_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 15_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 15_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 16">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 16_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 16_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 16_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 17">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 17_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 17_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 17_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 18">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 18_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 18_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 18_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 19">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 19_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 19_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 19_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 20">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 20_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 20_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 20_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 21">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 21_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 21_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 21_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 22">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 22_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 22_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 22_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 23">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 23_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 23_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 23_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 24">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 24_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 24_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 24_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="New Dataset 1" uuid="66d443bb-7b95-45be-bc78-ffc2b6c319b8">
+		<parameter name="alum_curp" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="clave_edusoc" class="java.lang.String"/>
+		<parameter name="clave_infrob" class="java.lang.String"/>
+		<parameter name="grado_alumno" class="java.lang.Integer"/>
+		<queryString>
+			<![CDATA[select materia from materias where grado = $P{grado_alumno} and materia != 'Educación Socioemocional' 
+and materia != 'Informática y Robótica';]]>
+		</queryString>
+		<field name="materia" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="primerTrimestre" uuid="c5ba298e-bbcf-421e-8485-a156bce37d4e">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="claveInfrob" class="java.lang.String"/>
+		<parameter name="claveEdusoc" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_trimestre 
+where clave_materia != $P{claveEdusoc} and  clave_materia != $P{claveInfrob}
+and curp = $P{curp_alumno} and trimestre = 1;]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="segundoTrimestre" uuid="3c4b5be9-c157-4aa0-8fec-b81bf2bb4121">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="claveInfrob" class="java.lang.String"/>
+		<parameter name="claveEdusoc" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_trimestre 
+where clave_materia != $P{claveEdusoc} and  clave_materia != $P{claveInfrob}
+and curp = $P{curp_alumno} and trimestre = 2;]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="tercerTrimestre" uuid="4f0db1e6-c538-4a8c-9997-1496ac913cf2">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="claveInfrob" class="java.lang.String"/>
+		<parameter name="claveEdusoc" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select  round(calificacion,1) as calificacion from calif_trimestre 
+where clave_materia != $P{claveEdusoc} and  clave_materia != $P{claveInfrob}
+and curp = $P{curp_alumno} and trimestre = 3;]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="materiasComplementarias" uuid="072f7227-e74a-489a-8705-2b60c66f3417">
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="parameter1" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select materia from materias where clave_materia in ( $P{edusoc} , $P{infrob}) ;]]>
+		</queryString>
+		<field name="materia" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="califDiagnostico" uuid="3758d199-3d3e-4ece-ab5e-5f2660579e3a">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Diagnostico' and clave_materia IN ($P{edusoc}, $P{infrob} );]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califSeptiembre" uuid="25dea860-a1cf-4c9d-aeb8-32e6c5aa2c90">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Septiembre' and clave_materia IN ($P{edusoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califOctubre" uuid="0826e0db-be24-40ac-b860-26efd7b51cb4">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="eudsoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Octubre' and clave_materia IN ($P{eudsoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califNov/Dic" uuid="97ed83da-b2d3-4ebc-b535-a1c8ec26bce9">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Nov/Dic' and clave_materia IN ($P{edusoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califEnero" uuid="c569adb1-9b27-485e-bf61-6ad22787ff3d">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Enero' and clave_materia IN ($P{edusoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califFebrero" uuid="c94923c7-c929-464c-83f1-885f727c52a4">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Febrero' and clave_materia IN ($P{edusoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califMarzo" uuid="08075040-43f4-49a0-924e-1dd9c9c56cda">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Marzo' and clave_materia IN ($P{edusoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califAbril" uuid="c09404aa-e996-4735-953a-a091ced29756">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Abril' and clave_materia IN ($P{edusoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califMayo" uuid="9057114a-c12e-4743-9d34-af81df20b83a">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Mayo' and clave_materia IN ($P{edusoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="califJunio" uuid="1ae2f751-1fdd-44ca-a7d6-88d071357c69">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual where curp = $P{curp_alumno}
+and mes = 'Junio' and clave_materia IN ($P{edusoc},$P{infrob});]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_D" uuid="5c870764-bec5-42f5-90f0-bde8eb471fa3">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion  from calif_mensual
+where clave_materia != $P{infrob} and  clave_materia !=  $P{edusoc}
+and curp = $P{curp_alumno} and mes = 'Diagnostico';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_S" uuid="fce9e0f7-2b59-4425-9c50-0d3988281d0d">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{edusoc} and  clave_materia !=  $P{infrob}
+and curp = $P{curp_alumno} and mes = 'Septiembre';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_O" uuid="1d0b2921-8fbb-4165-9a92-5b54b74c4d88">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{edusoc} and  clave_materia !=  $P{infrob}
+and curp = $P{curp_alumno} and mes = 'Octubre';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_N" uuid="81598d10-46da-4f7e-93e3-de13c88dfab6">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{edusoc} and  clave_materia !=  $P{infrob}
+and curp = $P{curp_alumno} and mes = 'Nov/Dic';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_E" uuid="1c377ae5-63bb-4d26-9adb-e3b2dc4cd05b">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{infrob} and  clave_materia !=  $P{edusoc}
+and curp = $P{curp_alumno} and mes = 'Enero';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_F" uuid="ae7e0f9c-0d8d-49f0-babe-800dc4852db5">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{infrob} and  clave_materia !=  $P{edusoc}
+and curp = $P{curp_alumno} and mes = 'Febrero';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_M" uuid="c4231e36-856f-4b1f-9ea8-9f918774a5cc">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select  round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{infrob} and  clave_materia !=  $P{edusoc}
+and curp = $P{curp_alumno} and mes = 'Marzo';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_A" uuid="09cebd19-8c90-48a6-bf8f-4a3e4e9f40de">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{infrob} and  clave_materia !=  $P{edusoc}
+and curp = $P{curp_alumno} and mes = 'Abril';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_MY" uuid="dc163f1d-267a-4279-8ca3-51fce10ab73e">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select  round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{infrob} and  clave_materia !=  $P{edusoc}
+and curp = $P{curp_alumno} and mes = 'Mayo';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="calif_mensual_J" uuid="9543db6c-4df2-4985-a7d2-70ff0b8e3194">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_mensual
+where clave_materia != $P{infrob} and  clave_materia !=  $P{edusoc}
+and curp = $P{curp_alumno} and mes = 'Junio';]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="promediofinalMateria" uuid="52f1a19b-3354-4a7a-83bb-a6df45ddd973">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="clave_materia" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(avg(calificacion),1) as calificacion from calif_trimestre
+where curp = $P{curp_alumno} and clave_materia = $P{clave_materia}  and trimestre between 1 and 3;]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="primerTrimestreComple" uuid="8836073f-7222-4dc7-87e0-731d14fb7a31">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<parameter name="parameter1" class="java.lang.Integer"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_trimestre 
+where curp = $P{curp_alumno} and clave_materia in ( $P{edusoc},$P{infrob} ) and trimestre = 1;]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="segundoTrimestreComple" uuid="d24ff3b2-d6ec-41f2-bb7a-a08cc4758824">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion from calif_trimestre 
+where curp = $P{curp_alumno} and clave_materia in ($P{edusoc},$P{infrob} )
+ and trimestre = 2;]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="tercerTrimestreComple" uuid="ddd8f1f0-cf98-48b9-b3f3-757194ba76ce">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="edusoc" class="java.lang.String"/>
+		<parameter name="infrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select round(calificacion,1) as calificacion  from calif_trimestre 
+where curp = $P{curp_alumno} and clave_materia in ($P{edusoc} , $P{infrob} )
+ and trimestre = 3;]]>
+		</queryString>
+		<field name="calificacion" class="java.lang.Double"/>
+	</subDataset>
+	<subDataset name="Table Dataset 1" uuid="0a48d5e1-62fd-4c08-9426-e687d980865a"/>
+	<subDataset name="Table Dataset 2" uuid="6ccaadd1-2c5f-4047-acec-64e314080cec"/>
+	<subDataset name="Table Dataset 3" uuid="4a86090d-6535-4979-8c80-cd0c2ef8b0db"/>
+	<subDataset name="Table Dataset 4" uuid="ec0e8ce0-a67f-4265-90fc-8e5ce316ba75"/>
+	<subDataset name="adicional" uuid="581aea70-8974-47e2-a144-5c5b33f34901">
+		<parameter name="parameter1" class="java.lang.String"/>
+		<parameter name="parameter2" class="java.lang.String"/>
+		<parameter name="parameter3" class="java.lang.String"/>
+		<parameter name="parameter4" class="java.lang.String"/>
+		<parameter name="parameter5" class="java.lang.String"/>
+		<queryString language="SQL">
+			<![CDATA[select 1]]>
+		</queryString>
+		<field name="1" class="java.lang.Long"/>
+	</subDataset>
+	<subDataset name="promedioFinalSEP" uuid="4c91b82c-7349-4c9f-b771-f3b7b9a913dd">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="claveEdusoc" class="java.lang.String"/>
+		<parameter name="claveInfrob" class="java.lang.String"/>
+		<parameter name="calif" class="java.lang.Double"/>
+		<queryString>
+			<![CDATA[select promedio from promedios where curp = $P{curp_alumno}
+ and clave_materia != $P{claveEdusoc} and clave_materia != $P{claveInfrob};]]>
+		</queryString>
+		<field name="promedio" class="java.lang.Double">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="promedioFinalComple" uuid="2d941db8-9411-46f1-a6a6-f9be9e5fcb88">
+		<parameter name="curp_alumno" class="java.lang.String"/>
+		<parameter name="claveEdusoc" class="java.lang.String"/>
+		<parameter name="claveInfrob" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select promedio from promedios where curp = $P{curp_alumno}
+ and clave_materia in ($P{claveEdusoc},$P{claveInfrob});]]>
+		</queryString>
+		<field name="promedio" class="java.lang.Double">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="grado_grupo" class="java.lang.String"/>
+	<parameter name="nolista" class="java.lang.Integer"/>
+	<parameter name="nombre" class="java.lang.String"/>
+	<parameter name="curp" class="java.lang.String"/>
+	<parameter name="clave_edusoc" class="java.lang.String"/>
+	<parameter name="clave_infrob" class="java.lang.String"/>
+	<parameter name="grado" class="java.lang.Integer"/>
+	<parameter name="D" class="java.lang.Integer"/>
+	<parameter name="S" class="java.lang.Integer"/>
+	<parameter name="O" class="java.lang.Integer"/>
+	<parameter name="N" class="java.lang.Integer"/>
+	<parameter name="E" class="java.lang.Integer"/>
+	<parameter name="F" class="java.lang.Integer"/>
+	<parameter name="M" class="java.lang.Integer"/>
+	<parameter name="A" class="java.lang.Integer"/>
+	<parameter name="MY" class="java.lang.Integer"/>
+	<parameter name="J" class="java.lang.Integer"/>
+	<parameter name="t_i_p" class="java.lang.Integer"/>
+	<parameter name="t_i_s" class="java.lang.Integer"/>
+	<parameter name="t_i_t" class="java.lang.Integer"/>
+	<parameter name="f_i" class="java.lang.Integer"/>
+	<parameter name="proDi" class="java.lang.Double"/>
+	<parameter name="proSe" class="java.lang.Double"/>
+	<parameter name="proOc" class="java.lang.Double"/>
+	<parameter name="proNov" class="java.lang.Double"/>
+	<parameter name="proEne" class="java.lang.Double"/>
+	<parameter name="proFeb" class="java.lang.Double"/>
+	<parameter name="proMar" class="java.lang.Double"/>
+	<parameter name="proAbr" class="java.lang.Double"/>
+	<parameter name="proMay" class="java.lang.Double"/>
+	<parameter name="proJun" class="java.lang.Double"/>
+	<parameter name="pro_t_1" class="java.lang.Double"/>
+	<parameter name="pro_t_2" class="java.lang.Double"/>
+	<parameter name="pro_t_3" class="java.lang.Double"/>
+	<parameter name="promedioFinalSep" class="java.lang.Double"/>
+	<queryString>
+		<![CDATA[select 1]]>
+	</queryString>
+	<field name="1" class="java.lang.Long"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="126" splitType="Stretch">
+			<staticText>
+				<reportElement x="223" y="0" width="283" height="20" uuid="1694df6d-9d8a-4e55-bd48-d3dff51a1732"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ INSTITUTO HISPANOAMERICANO - MEXICANO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="223" y="20" width="111" height="20" uuid="ab1cdc71-c1eb-4927-bd5e-eb263f029def"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[SECCION: PRIMARIA ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="223" y="40" width="111" height="20" uuid="62fc9e30-c0f2-4718-821e-79ac3d802e7c"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[GRADO Y GRUPO:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="223" y="60" width="100" height="20" uuid="21fb2bca-9152-4beb-a219-fe69f7f3ef43"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[NO. DE LISTA:
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="223" y="103" width="100" height="20" uuid="66204fb4-dc0a-4a50-a419-f119a214d284"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ALUMNO (A):
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="426" y="20" width="129" height="20" uuid="15eec4a1-f68d-4dc6-a3e2-6243411a1605"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CLAVE: 12PPR0395H]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="406" y="60" width="149" height="20" uuid="515810d2-60c8-4044-89ec-bbc7e3e8d6fb"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CICLO ESCOLAR: 2020 - 2021.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="426" y="40" width="100" height="20" uuid="bf5bbe24-f088-48e1-9100-ff31f0e2619c"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{grado_grupo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="323" y="103" width="232" height="20" uuid="dba9e7c4-e23f-4856-a4f9-28cc153e4839"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="323" y="60" width="38" height="20" uuid="3d5c90d9-5c19-4702-9af9-b342914a2423"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nolista}]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="0" y="0" width="223" height="123" uuid="df903129-15a8-4e0c-93c9-f51a3ee89c9e"/>
+				<imageExpression><![CDATA["C:\\Users\\marco\\OneDrive\\Documentos\\Control_escolar_v4.2\\src\\Imagenes\\boleta\\descarga - copia.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="92" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="7" width="124" height="85" uuid="daa310dc-dafa-4832-8ac0-2d3b7b4b8fa0"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAMPOS DE FORMACIÓN
+ACADÉMICA
+]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="367" y="27" width="27" height="65" backcolor="#CCFFCC" uuid="45e92fa6-d46c-4673-bbd4-8a5619e733d1"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="368" y="27" width="26" height="65" forecolor="#1E326D" uuid="e24194a6-b4ec-4c45-b705-4094e7ae848a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JUNIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="422" y="7" width="92" height="20" uuid="49f12035-f7ca-48fc-949e-da01ad615d32"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PERIODOS]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="514" y="7" width="39" height="85" backcolor="#9999FF" uuid="224446b6-9887-42dd-b39a-860f68e7206c"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="514" y="7" width="39" height="85" uuid="354ca44b-c2ec-4128-a61f-211f4906eb1e"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PROMEDIO FINAL]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="422" y="27" width="31" height="65" backcolor="#FF9999" uuid="d725fc70-825b-4169-865a-c4b81ef89742"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="484" y="27" width="30" height="65" backcolor="#CCFFCC" uuid="0ec29105-f6e5-4f8c-8a2c-43fb76be2146"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="453" y="27" width="31" height="65" backcolor="#FFFF99" uuid="19a59bbd-a372-4231-a042-83db2344c2a0"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="484" y="27" width="30" height="28" forecolor="#1E326D" uuid="4ea26738-5f42-4dfe-89d3-0e54318e99a9"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[      3º       TRIM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="453" y="27" width="31" height="28" forecolor="#1E326D" uuid="2ccce422-288f-4e56-bbbd-eadea9dee05b"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[      2º       TRIM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="422" y="27" width="31" height="28" forecolor="#1E326D" uuid="793ce1a8-f049-4518-960b-17e332e387e2"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[      1º       TRIM]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="340" y="27" width="27" height="65" backcolor="#CCFFCC" uuid="30cfaa91-eb63-490a-bea2-b4ea690bdcb9"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="313" y="27" width="27" height="65" backcolor="#CCFFCC" uuid="963fea74-1a84-4021-92c6-6c746ea0370c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="286" y="27" width="27" height="65" backcolor="#FFFF99" uuid="f5bb6a0f-99a1-45a9-aea5-8c5c0fd0827b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="259" y="27" width="27" height="65" backcolor="#FFFF99" uuid="fc15d5c8-48c5-40e2-ac39-b64f1f77719c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="205" y="27" width="27" height="65" backcolor="#FF9999" uuid="2007bbac-7086-4df7-ab44-92c96062e609"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="232" y="27" width="27" height="65" backcolor="#FFFF99" uuid="2a97ced0-4cc9-4fd9-a8dc-aa0e09b97441"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="178" y="27" width="27" height="65" backcolor="#FF9999" uuid="b4095407-7a7a-42f1-9dac-e424c612407d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="151" y="27" width="27" height="65" backcolor="#FF9999" uuid="6fb9978c-1d08-445e-8fa6-490085abb13a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="124" y="27" width="27" height="65" backcolor="#9999FF" uuid="6a369dca-63f4-4b4e-bb66-40742892506e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="341" y="27" width="26" height="65" forecolor="#1E326D" uuid="631e611b-f859-4bc8-8487-f8caa8e33340"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MAYO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="27" width="27" height="65" forecolor="#1E326D" uuid="09de1030-4397-42f0-8091-efbd07f472bf"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ABRIL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="286" y="27" width="27" height="65" forecolor="#1E326D" uuid="1f3d5f97-1ca5-4941-9cc5-a7930c40aa6a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MARZO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="27" width="27" height="65" forecolor="#1E326D" uuid="597cba12-aacf-40e6-9dbc-fb344ac332c5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FEBRERO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="27" width="27" height="65" forecolor="#1E326D" uuid="fc4062e9-96a2-4a73-ab8b-a5a3e20cf691"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ENERO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="205" y="27" width="27" height="65" forecolor="#1E326D" uuid="9ae7a714-10f2-4af6-a597-e255a9dcfbf9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOV/DIC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="178" y="27" width="27" height="65" forecolor="#1E326D" uuid="6dd2950d-0537-42df-88b0-cb2796d1292e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[OCTUBRE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="151" y="27" width="27" height="65" forecolor="#1E326D" uuid="03ae37be-4bc3-469d-b1f7-b8cee69200f0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SEPTIEMBRE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="27" width="27" height="65" forecolor="#1E326D" uuid="cd0aee0d-c474-4427-95e8-f8590e2fda07"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIAGNOSTICO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="453" y="55" width="31" height="37" uuid="0c38e9ee-9a36-40f4-b011-8e19cdcb2605"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CALIF.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="484" y="55" width="30" height="37" uuid="b3cb82b9-3eb9-492f-af8f-e3dcf053e454"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CALIF.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="422" y="55" width="31" height="37" uuid="5d21729d-b5fd-4c59-ae76-40b346d570bb"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CALIF.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="7" width="269" height="20" uuid="7431635f-1ac9-405e-b946-350b53f4fd16"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CALIFICACIONES MENSUALES]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="423" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 11" style="table 11" x="0" y="226" width="125" height="61" uuid="ba054356-b9ae-4634-8f8a-4fb0c24ba41a"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="materiasComplementarias" uuid="abf4673c-cc43-4ad2-894d-5a0abdb97fd1">
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="124" uuid="4a0db9f6-36ef-4dc2-9c21-4fd9f9ba1f43">
+						<jr:detailCell style="table 11_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="124" height="20" uuid="9a89ac53-d580-40a7-8ff3-41d059aa41f1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{materia}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="152" y="226" width="27" height="61" uuid="a1b30bf5-a407-4124-ba61-ed35cd757fc5"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califSeptiembre" uuid="48ec6ff5-48f3-486d-9e52-747227a6f7b6">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="0eb7edcb-380f-4f8d-8ae7-ce1436905f13">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="f83b6c24-38c9-47a7-8626-3be5c4852c9b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="179" y="226" width="27" height="61" uuid="22c8a598-3edd-46bf-b7fe-b15f709afddd"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califOctubre" uuid="0612b507-9134-4092-8d98-b0c4809f8e77">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="eudsoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="3b166992-616b-4902-b8db-c72dbdbe1584">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="4004a32f-9247-42b3-baa8-45b439e31952"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="206" y="226" width="27" height="61" uuid="c01daaa2-211c-4802-9571-bd5223326611"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califNov/Dic" uuid="f96471e6-5612-4001-ba4c-a11785407d5d">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="b5add42e-338e-4ada-9f73-d04ce7dcd50b">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="ded5d1b4-0271-43d8-b9fa-e37fa68c4940"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="233" y="226" width="27" height="61" uuid="3511a8d5-26b9-4b46-824d-4e35a1db28c5"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califEnero" uuid="6ed9df13-9b39-40a1-9fc7-78c18dd8bb09">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="d710b6c9-3b98-405b-9d5f-ae348fec8872">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="8ab64dab-f965-4596-bf52-1922860745ff"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="289" y="226" width="27" height="61" uuid="1e015204-0891-4938-b231-2d839905fc80"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califMarzo" uuid="7398f85e-cc55-41b2-b3c9-9438ba146a37">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="e841155d-f5a9-47f4-9daf-aff824c6f1ff">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="b28c60bc-48ed-44cc-9c2a-422a5b0128b9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="316" y="226" width="26" height="61" uuid="f8511cd0-a11f-4ac2-a95b-2acb7da78d2e"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califAbril" uuid="c6a84ff0-7e5e-473d-a7d1-ec31c0c4cce7">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="cab100e3-e063-4384-9ee3-4fae0c7d1e5d">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="29190f80-d28b-4670-aab4-92e2bf8dd797"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="342" y="226" width="27" height="61" uuid="32dce751-73fd-4e56-bad0-bd863b5836e7"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califMayo" uuid="fcb94ed5-ab44-4568-955f-faaa5d4ea1e2">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="82843f8e-5c78-47c6-bb69-b17c3099f2f0">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="794f3307-abc2-4b20-8e97-5baf5ff7bb90"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="369" y="226" width="27" height="61" uuid="192b72af-76e3-4392-b73b-46232bcfcd7a"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califJunio" uuid="2ef3330f-fc41-4f84-94af-7d9023a8bbe5">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="4447c684-47df-4a70-bea6-a6442381a199">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="b89ddf03-5cdc-463b-9480-19db62e16b7b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="260" y="226" width="29" height="61" uuid="ec09b6df-33e0-44d7-bd6d-2ad4bc35f73a"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califFebrero" uuid="12f384d1-faef-4ff1-97d8-8a3d6e79996a">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="29" uuid="52005322-0337-4136-b780-2632e0a5cd6f">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="29" height="20" uuid="d5968d94-90e3-4572-a37c-34b0e23e12e4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="0" y="201" width="125" height="25" uuid="3573e1f2-d793-478d-85ef-b1b3d8a8de4b"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ASIGNATURA COMPLEMENTARIA ]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="206" y="201" width="27" height="25" backcolor="#FF9999" uuid="03e59c2e-3093-4a23-bd36-51c0aa8f55a1"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="260" y="201" width="29" height="25" backcolor="#FFFF99" uuid="a3af6289-58cb-4f1f-a7eb-7b4c6825c279"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="260" y="201" width="29" height="25" forecolor="#1E326D" uuid="aad3d56b-122b-4b6c-b38a-857cbf92f138"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[F]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="125" y="201" width="27" height="25" backcolor="#9999FF" uuid="60859c97-1096-41cf-83e4-04f513ff73c9"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="179" y="201" width="27" height="25" backcolor="#FF9999" uuid="3cb76322-b847-4fb6-996e-7c10a650648c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="233" y="201" width="27" height="25" backcolor="#FFFF99" uuid="516a3464-025a-4da4-9352-a8237303b6cf"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="233" y="201" width="27" height="25" forecolor="#1E326D" uuid="00634b63-07f2-4e7b-b3d7-b940598560a8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[E]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="369" y="201" width="27" height="25" backcolor="#CCFFCC" uuid="883d5759-a6b9-4c47-b104-9ec68657ab2e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="289" y="201" width="27" height="25" backcolor="#FFFF99" uuid="e4b83d17-daeb-4caf-a46c-bab7bf10b3b9"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="342" y="201" width="27" height="25" backcolor="#CCFFCC" uuid="650ff115-0d5f-4222-aff7-e92af42159ac"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="206" y="201" width="27" height="25" forecolor="#1E326D" uuid="004f2ae5-32cb-472b-9b78-3fc0ad641575"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[N/D]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="201" width="27" height="25" forecolor="#1E326D" uuid="d38897e0-bd44-423e-aa1f-1bd7c89d39ff"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[D]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="179" y="201" width="27" height="25" forecolor="#1E326D" uuid="41b2a2b1-8edd-40d9-b0d9-c0d2576028e5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[O]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="316" y="201" width="26" height="25" backcolor="#CCFFCC" uuid="e0aa8d1f-6222-4aba-8a12-602d17e8e94f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="369" y="201" width="27" height="25" forecolor="#1E326D" uuid="71896946-f22d-4210-b99d-be2a1a5f1264"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[J]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="289" y="201" width="25" height="25" forecolor="#1E326D" uuid="d2baa7ce-158c-43b0-950e-aace2c9238eb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[M]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="152" y="201" width="27" height="25" backcolor="#FF9999" uuid="39200dbb-09b2-4c6c-b8a8-227dd3c63b34"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="316" y="201" width="26" height="25" forecolor="#1E326D" uuid="f210050b-4914-4fb1-b833-7ae49cce6849"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="342" y="201" width="26" height="25" forecolor="#1E326D" uuid="c80e47fe-3b78-4ec9-a1eb-aaa339b6e4c3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[M]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="152" y="201" width="27" height="25" forecolor="#1E326D" uuid="d8013741-9182-4e29-bacd-a7358484cf32"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[S]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 15" style="table 15" x="0" y="0" width="124" height="138" uuid="6792bd08-7dcb-4673-95c8-7a6f16182154"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="New Dataset 1" uuid="b32e0e13-2c4c-47d8-a209-48acd52e156e">
+						<datasetParameter name="alum_curp">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="clave_edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="clave_infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="grado_alumno">
+							<datasetParameterExpression><![CDATA[$P{grado}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="124" uuid="254ec8bf-cb11-496f-870a-e629c33df4c7">
+						<jr:tableFooter style="table 15_TH" height="17" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="124" height="17" uuid="544da4da-3430-41db-bfb0-2e6dd1439dc9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="8" isBold="true"/>
+								</textElement>
+								<text><![CDATA[PROM. MENSUAL]]></text>
+							</staticText>
+						</jr:tableFooter>
+						<jr:detailCell style="table 15_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="124" height="20" uuid="1af779f7-7936-40df-b2ba-4470ce5448be"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10" isBold="false"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{materia}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<rectangle>
+				<reportElement x="426" y="201" width="29" height="25" backcolor="#FF9999" uuid="504bf3ac-8e01-4de7-8847-d98626dc9602"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="454" y="201" width="30" height="25" backcolor="#FFFF99" uuid="0a3099df-2329-4d68-937b-e323bdb5aed0"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="484" y="201" width="32" height="25" backcolor="#CCFFCC" uuid="e21ad7f0-461c-409f-b535-c978f758bf0c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="514" y="201" width="35" height="25" backcolor="#9999FF" uuid="7774fb3f-1705-47a1-bf31-7d4782c123c0"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="426" y="201" width="28" height="25" uuid="c84b2492-78ee-456f-bb34-2d47a1961fdf"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[C]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="454" y="201" width="30" height="25" uuid="9f9cabab-9f87-4e44-9618-c6daa2213f43"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[C]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="484" y="201" width="32" height="25" uuid="5ddfaf59-db85-4132-9736-1cece82c7361"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[C]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="514" y="201" width="35" height="25" uuid="34ef61e0-7834-42fa-ae9b-3afb0166c436"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PF]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="425" y="287" width="29" height="15" uuid="136408a6-d82f-478d-ab47-01e32cd208ca"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{t_i_p}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="453" y="287" width="31" height="15" uuid="c4a7495c-ee37-494c-8a7d-3ad7229e9800"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{t_i_s}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="484" y="287" width="30" height="15" uuid="1ac62d8c-1f15-4e45-9ac2-2ee9e4f046e8"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{t_i_t}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="514" y="287" width="35" height="15" uuid="ac6bc887-03fa-4236-84aa-a23e3e6c921b"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{f_i}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="124" y="287" width="27" height="15" uuid="b02ee2d3-db1e-4fd7-8007-e9d2142a7d27"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{D}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="151" y="287" width="27" height="15" uuid="4747e7cb-7555-452e-9c26-937a578861d7"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{S}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="178" y="287" width="27" height="15" uuid="51e2a2d3-2b16-40b5-8ce1-2e8667ee0c11"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{O}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="205" y="287" width="27" height="15" uuid="bd2db1fc-f482-4753-83cc-cc7c9e637489"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{N}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="287" width="27" height="15" uuid="a81a090c-f4cb-49cb-8236-35f1a613283c"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{E}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="259" y="287" width="27" height="15" uuid="b648c319-0e2c-494c-8ffd-c85e7a77ef08"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{F}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="286" y="287" width="27" height="15" uuid="9e78e56d-0d71-487c-a753-05dde85e70f6"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{M}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="287" width="27" height="15" uuid="2758ec2c-67ed-4977-b9c2-dc5304a228b4"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{A}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="287" width="27" height="15" uuid="9b0b3887-ebff-4405-9965-3cde8fe95c65"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{MY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="367" y="287" width="27" height="15" uuid="de6f72e5-2eeb-4611-82ae-e2cd10b64a4e"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{J}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="287" width="124" height="15" uuid="3caee50b-f7fb-46ee-bc9c-86e00d553ce8"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INASISTENCIAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="321" width="124" height="20" uuid="fd7dad84-9368-48eb-ac8d-13ef2d625c17"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NIVELES DE DESEMPEÑO
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="321" width="430" height="20" uuid="d2a2964b-4d1d-4c8b-bab2-8420982afce4"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[El estudiante tiene carencias fundamentales en valores y principios para desarrollar una convivencia sana y pacifica,
+dentro y fuera del aula.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="341" width="124" height="20" uuid="5bf3b5ef-5052-4875-911a-efae843dff7c"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[NIVEL I = EQUIVALE A 5
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="341" width="430" height="20" uuid="4787b2eb-c79f-4b4e-bf83-fe67bc39b3c7"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[El estudiante tiene dificultades para demostrar valores y principios para desarrollar una convivencia sana y pacifica,
+dentro y fuera del aula.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="361" width="125" height="20" uuid="109ed4f2-2b06-437f-97e5-701a52883df0"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[NIVEL II = EQUIVALE A 6 Y 7
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="361" width="431" height="20" uuid="3c84cd8a-24fc-4fbb-8b24-af7e01dd8e8e"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[El estudiante ha demostrado los valores y principios para desarrollar una convivencia sana y pacifica, dentro y fuera
+del aula.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="381" width="430" height="20" uuid="a53299c1-7520-4ad3-944f-4447b9dafb4c"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[El estudiante ha demostrado los valores y principios para desarrollar una convivencia sana y pacifica, dentro y fuera
+del aula.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="381" width="124" height="20" uuid="dfeab289-3841-4aa0-870d-e84352cc71dd"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[NIVEL III = EQUIVALE A 8 Y 9
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="401" width="431" height="20" uuid="62c8d6a8-c176-4ea8-9941-15f42a92378a"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="401" width="125" height="20" uuid="79b72334-36aa-4fa9-8425-90cffd8e6fdc"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[NIVEL IV = EQUIVALE A 10
+]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 16" style="table 16" x="426" y="226" width="27" height="61" uuid="bc03a74a-6c43-43a5-8cbd-b6f153e60bf2"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="primerTrimestreComple" uuid="597c2475-1782-42cf-a6bb-e740efcf8f98">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="ed112fcb-0a3b-4f25-92de-a13d07ff9153">
+						<jr:detailCell style="table 16_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="a2d5e397-0b0c-4f35-90d0-fb2fdd2b3601"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 16" style="table 16" x="454" y="226" width="27" height="61" uuid="de6de12e-a7b8-4d20-a7fd-5f6482369052"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="segundoTrimestreComple" uuid="5b071cda-8a5e-4927-9a7c-bd4e3447cdaf">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="31" uuid="1dda31f8-d0b5-440f-8e82-5e7f9ea97c8e">
+						<jr:detailCell style="table 16_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="31" height="20" uuid="07eb30c8-d4c8-4906-9739-7de771a0f4d3"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 16" style="table 16" x="484" y="226" width="27" height="61" uuid="6d61fefb-8f4a-47c5-82a9-9c6ae9e4959b"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="tercerTrimestreComple" uuid="fb257d82-de1f-43a6-bd89-b3a4814d4253">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="30" uuid="cc2f9084-ddc5-4be1-a2c2-9005d3d763f9">
+						<jr:detailCell style="table 16_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="30" height="20" uuid="a4046be6-67a7-4003-a7ec-381135def8f8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="125" y="0" width="27" height="138" uuid="e2a8fcf7-b917-4e72-ac3e-b710d38becda"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_D" uuid="1c90d18b-f523-4fd7-ad13-e83ad354bc66">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proDi}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="590c6795-608a-4bc8-8b40-229154943680">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="36ed6a19-6691-4184-9a61-17842e01475b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="d3dba7ca-68fe-4470-bcde-1c4ea3290863"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="152" y="0" width="27" height="138" uuid="2b541e8c-4937-459a-950e-313a39577242"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_S" uuid="256d542c-ae40-4d22-81dd-fea7b77da976">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proSe}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="2379a009-1bb6-4578-b770-8813e7a6a47a">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="cf23a421-6060-4d23-8ac5-245cc6b93506"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="f25b2e36-0b6f-42fc-a64c-ef042a1513d1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="179" y="0" width="27" height="138" uuid="1265c96b-895a-40df-a685-22bd5150dda5"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_O" uuid="564c2600-924c-480e-bddc-aafaf3ac1486">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proOc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="c9f35615-024a-4bbd-b2d5-70fc99fdd195">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="2e74b8b1-e304-45b0-ae09-acf81e9cd7d7"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="02e02142-fef0-41da-92fe-a614f788d624"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="205" y="0" width="27" height="138" uuid="97c14ba6-89ab-4b8b-a6b4-3b34718c5a4e"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_N" uuid="edc00da1-42b7-492c-a23c-978117760a28">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proNov}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="55406c73-5365-48ac-ace6-070d3e289e92">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="12ea43f4-720f-4b03-aa3f-9aa6beb2edfd"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="87c16594-63d9-44c4-a8d5-2f1bba00e4e7"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="232" y="0" width="27" height="138" uuid="6482e7dd-4223-4971-bb55-819b1b1fc8c3"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_E" uuid="29ad70cb-c116-4106-9d38-411f4cb8d5c7">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proEne}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="488c9e71-4498-49a8-84de-369aeaedf299">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="2b4d7ca0-9846-4d8b-9e52-81b3dc758e2f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="b518a619-ece1-4fae-aef1-84fef7e38c08"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="259" y="0" width="27" height="138" uuid="dd7e6dda-bd71-417f-825b-993f83df4084"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_F" uuid="29c00eae-df45-49a8-bd49-1137fb7f8bd8">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proFeb}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="eca788d0-e308-4576-a3b7-5dfa78d2e2f1">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="17" uuid="7cfc4ffd-a605-4c85-8ba8-b60d3bca9b62"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="bee41151-f1c2-41e0-bba1-a9ee2d63d883"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="287" y="0" width="27" height="138" uuid="b3758e58-009a-4c14-82c0-e56207cc7fb6"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_M" uuid="b3f984fe-8c81-4787-a7a5-97d18c2d1751">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proMar}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="ff23ebae-6af3-4a40-9ddf-2679102ca282">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="67b3bd94-7dd1-4f27-853f-f92f66ba854e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="482c7a09-1c49-4557-b7aa-96db97a5fdb5"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="314" y="0" width="27" height="138" uuid="18730a5f-cf65-499a-b02b-1c5248eab1e1"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_A" uuid="a05998ad-43db-408c-aff6-a2d33d7aeb79">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proAbr}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="21f0bdaa-2e50-4dce-ae3c-46950ebcb601">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="0bafcfe4-5200-47f6-9015-387ead6a787d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="26ac1707-6442-486c-8666-a4e3fbbca41a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="367" y="0" width="27" height="138" uuid="f6d55797-0b25-41b0-aeb5-6593aa7523ce"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_J" uuid="8dd143d3-ba0f-45cb-92e0-44407066fc47">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proJun}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="c13683cc-5d15-45e3-8c7b-f38aadd9938a">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="fb9ce3b1-2fc6-47a8-bb10-0a4f52e950fb"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="88e4c2ad-3459-4ace-9df3-ef0a5c72bc0f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 17" style="table 17" x="340" y="0" width="27" height="138" uuid="88682a91-6aeb-4009-adfb-794841525c77"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="calif_mensual_MY" uuid="528864ad-7684-4df0-989c-758843c5aa97">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{proMay}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="26" uuid="90f177a3-977a-489d-acef-8fc46b8a6a83">
+						<jr:tableFooter style="table 17_TH" height="17" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="17" uuid="70a68a16-8265-49ae-a50a-082e102a2f54"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 17_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="26eb140d-6ab5-48ba-ba25-929a76587914"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 12" style="table 12" x="125" y="226" width="27" height="61" uuid="17caaf42-c6c8-41b3-8f6b-87adbc70d199"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="califDiagnostico" uuid="75204cb0-9cda-4373-b956-789977183c22">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="edusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="infrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="27" uuid="7e72a835-303d-4ab6-aa50-2e931b2c37a2">
+						<jr:detailCell style="table 12_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="27" height="20" uuid="42f18b66-2483-4ddb-af15-3c99edda68f6"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 18" style="table 18" x="422" y="0" width="31" height="140" uuid="80fa11f7-6632-4ee1-ac36-6421af506e57"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="primerTrimestre" uuid="c7b7ad7c-f888-41bb-b24a-3c2b183408c7">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveInfrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveEdusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{pro_t_1}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="31" uuid="5e8b9c0f-1841-4bc9-a4a7-12a0e94c56a3">
+						<jr:tableFooter style="table 18_TH" height="16" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="31" height="16" uuid="28625454-b45a-48cc-9670-16610cff5ebc"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 18_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="31" height="20" uuid="ed98225c-5e2b-4a6f-9c2e-5115d1d8d64a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 18" style="table 18" x="453" y="0" width="31" height="140" uuid="6fe16c63-5aa7-48be-b49b-d5a7efed25b1"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="segundoTrimestre" uuid="ce215895-3fb1-4b97-b17f-57a21b8e3bd0">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveInfrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveEdusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{pro_t_2}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="31" uuid="6a1259fa-95fa-4162-bd5e-0d52a896314d">
+						<jr:tableFooter style="table 18_TH" height="16" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="31" height="16" uuid="7d9032e4-ba9a-40d7-aa64-20e0d7af4a6a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 18_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="31" height="20" uuid="f540da6a-c990-453a-a406-bc5890e463df"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 18" style="table 18" x="485" y="0" width="31" height="140" uuid="0825c21c-93c6-4c02-ad97-313595374984"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="tercerTrimestre" uuid="45777ba5-fb1e-425a-8e74-ab05ec40f5be">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveInfrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveEdusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{pro_t_3}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="29" uuid="4d9d5cb9-49ae-4bfe-b745-c45b3219d264">
+						<jr:tableFooter style="table 18_TH" height="16" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="29" height="16" uuid="212a6e49-03c6-4e41-99ce-4d38564bd3a3"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:tableFooter>
+						<jr:detailCell style="table 18_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="29" height="20" uuid="27c066cb-5c6d-4a6d-aa46-2a26b8e62581"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{calificacion}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 23" style="table 23" x="514" y="0" width="39" height="140" uuid="13bc2ebb-bae0-45e5-9d87-54430037ea31"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="promedioFinalSEP" uuid="a66d8558-da05-4c77-9ca6-1fd7357c0165">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveEdusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveInfrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="calif">
+							<datasetParameterExpression><![CDATA[$P{promedioFinalSep}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="38" uuid="b736fe62-5fa7-45fe-8f30-2c7f727aec56">
+						<jr:columnFooter style="table 22" height="16" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="38" height="16" uuid="f44bb436-1a6e-4cd4-8cf6-875e1d798beb"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$P{calif}]]></textFieldExpression>
+							</textField>
+						</jr:columnFooter>
+						<jr:detailCell style="table 23_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="38" height="20" uuid="dc4bc0a8-3774-4a2f-a365-22ef19756106"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{promedio}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 24" style="table 24" x="514" y="226" width="35" height="61" uuid="d86c231b-78a9-4323-96d0-49cab65bdaed"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="promedioFinalComple" uuid="0c37f6c1-7d94-425d-a9c6-68f9e01f3d98">
+						<datasetParameter name="curp_alumno">
+							<datasetParameterExpression><![CDATA[$P{curp}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveEdusoc">
+							<datasetParameterExpression><![CDATA[$P{clave_edusoc}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="claveInfrob">
+							<datasetParameterExpression><![CDATA[$P{clave_infrob}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="35" uuid="f3821d32-170c-4cc5-9dad-0fbde9696ad7">
+						<jr:detailCell style="table 24_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="35" height="20" uuid="25394683-10a7-45c1-9f65-c8fa6a24de53"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{promedio}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="43" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
